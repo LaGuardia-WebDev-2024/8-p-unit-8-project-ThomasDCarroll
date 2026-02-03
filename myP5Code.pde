@@ -2,9 +2,18 @@
 setup = function() {
     size(600, 400);
     background(255,255,255,0);
-    
-    drawFish(200, 200, color(200,0,200)); 
-    drawFish(300, 200, color(0,200,200));
+
+    DrawFox (200, 300);
+    DrawFox (260, 300);
+    DrawFox (320, 300);
+
+    var count = 0;
+
+    mouseClicked = function(){
+      DrawLeaf(random(0,600), random(0,600));
+      DrawLeaf(random(0,600), random(0,600));
+      DrawLeaf(random(0,600), random(0,600));
+    }
 };
 
 //🟢draw Function - will run on repeat
@@ -18,11 +27,13 @@ mouseClicked = function(){
 }
 
 //🟡drawFish Function - will run when called
-var drawFish = function(fishX, fishY, fishColor){
-  textSize(80);
-  fill(fishColor);
-  text("𓆝", fishX, fishY);
-};
+var DrawFox = function(FoxX, FoxY){
+  textSize(50);
+  text("🦊", FoxX, FoxY);}
+
+var DrawLeaf = function(LeafX, LeafY){
+  textSize(30);
+  text("🍁", LeafX, LeafY);}
 
 
 

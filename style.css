@@ -4,7 +4,11 @@
 }
 
 body {
-  background-color: aliceblue;
+  background-image: url("autumn\ background\ 2.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
   text-align: center;
   color: navy;
   margin: auto;
@@ -16,7 +20,7 @@ h1{
 }
 
 #myCanvas {
-  background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
+  background-image: url("autumn\ background.jpeg");
   background-size: 600px 400px;
   border-radius: 300px;
   border: 5px solid white;
