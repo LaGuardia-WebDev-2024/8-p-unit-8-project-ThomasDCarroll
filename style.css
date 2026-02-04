@@ -10,7 +10,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
-  color: navy;
+  color: rgb(255, 244, 244);
   margin: auto;
   font-family: water;
 }
