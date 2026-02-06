@@ -2,6 +2,7 @@
 setup = function() {
     size(600, 400);
     EagleX = 0;
+    frameRate(5);
 };
 
 
